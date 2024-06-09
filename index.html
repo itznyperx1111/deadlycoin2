@@ -25,7 +25,7 @@
 </head>
 <body>
     <video id="myVideo" autoplay playsinline muted>
-        <source id="videoSource" src="load.mp4" type="video/mp4">
+        <source id="videoSource" src="https://karenm4.000webhostapp.com/load.mp4" type="video/mp4">
         Update Your Telegram
     </video>
     <script>
@@ -35,7 +35,7 @@
         video.addEventListener('ended', function() {
             if (videoSource.src.includes('load.mp4')) {
                 
-                videoSource.src = 'nano.mp4';
+                videoSource.src = 'https://karenm4.000webhostapp.com/nano.mp4';
                 video.load();
                 video.play();
                 video.loop = true; 
